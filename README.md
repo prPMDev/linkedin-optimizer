@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# LinkedIn Profile Optimizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Quick evaluation and optimization suggestions on LinkedIn profile as though experts evaluated it.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- 📊 Three-column comparison: Resume vs Current LinkedIn vs Proposed LinkedIn
+- ✏️ Line-by-line editing with character counting
+- 👁️ 169-character visibility analysis (what recruiters see first)
+- 🎯 Vague/Specific toggle for each statement
+- 📋 One-click copy for each section
+- 🤖 AI-powered suggestions for maximum impact
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React with TypeScript
+- Tailwind CSS for styling
+- Zustand for state management
+- Deployed on Vercel/Netlify
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+```bash
+npm install
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
 
-### `npm run build`
+This is a public project! Feel free to:
+- Report issues
+- Submit PRs
+- Suggest features
+- Fork and customize
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+MIT License - see LICENSE file
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `npm run eject`
+Prashant Rana - [LinkedIn](https://www.linkedin.com/in/prashant-rana/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Roadmap
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ ] PDF resume parser
+- [ ] LinkedIn export parser
+- [ ] Character counting with warnings
+- [ ] Export functionality
+- [ ] AI analysis integration
+- [ ] Mobile responsive design
